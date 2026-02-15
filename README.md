@@ -19,9 +19,9 @@ The system follows a modular RAG pipeline to ensure high-speed retrieval and con
 
 Visual representations of the user experience can be found in the `/assets` directory.
 ### Inital WireFrame
-![Initial Wireframe](Image_URL_or_Path)
+![Initial Wireframe](asset/vaidya-ai.drawio.png)
 ###  Home Screen
-![Home Screen ](Image_URL_or_Path)
+![Home Screen ](asset/home.png)
 ###  Chat Interface
 ![Chat Interface](Image_URL_or_Path)
 
