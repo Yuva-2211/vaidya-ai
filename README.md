@@ -22,8 +22,8 @@ Visual representations of the user experience can be found in the `/assets` dire
 ![Initial Wireframe](asset/vaidya-ai.drawio.png)
 ###  Home Screen
 ![Home Screen ](asset/home.png)
-###  Chat Interface
-![Chat Interface](Image_URL_or_Path)
+###  Mobile Chat Interface
+![Chat Interface](asset/image.png)
 
 
 
