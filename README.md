@@ -104,7 +104,7 @@ Vaidya AI is programmed to deliver information in a strict, easy-to-read format:
 ---
 ## Live Demo
 The application is live and can be accessed on Hugging Face Spaces:
-View Vaidya AI on Hugging Face : [Visit Vaidya AI on Hugging Face](https://huggingface.co/spaces/username/project)
+View Vaidya AI on Hugging Face : [Visit Vaidya AI on Hugging Face](https://huggingface.co/spaces/yuva-2211/Vaidya-Ai)
 
 
 --- 
