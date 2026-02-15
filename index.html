@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaidya AI- Chat</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Philosopher:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="lotus-icon">
+                <img src="asset/logo.png" alt="Vaidya AI Logo">
+            </div>
+            <h1>Vaidya AI</h1>
+            <p class="subtitle">Ancient Indian healing knowledge with modern guidance</p>
+        </div>
+
+        <div class="chat-container">
+            <div class="empty-state" id="emptyState">
+                <div class="sparkle-icon">
+                    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M50 10L55 40L85 45L55 50L50 80L45 50L15 45L45 40L50 10Z" fill="#d4af37" opacity="0.8"/>
+                        <path d="M70 20L72 30L82 32L72 34L70 44L68 34L58 32L68 30L70 20Z" fill="#b8c5a9"/>
+                        <path d="M30 60L32 70L42 72L32 74L30 84L28 74L18 72L28 70L30 60Z" fill="#b8c5a9"/>
+                    </svg>
+                </div>
+                <h2>Ask our AI anything</h2>
+                <p>Discover natural remedies, holistic wellness, and Ayurvedic guidance tailored to you</p>
+                <div class="suggestions">
+                    <div class="suggestion-chip" onclick="sendSuggestion('Natural remedies for stress')">Natural remedies for stress</div>
+                    <div class="suggestion-chip" onclick="sendSuggestion('Ayurvedic diet tips')">Ayurvedic diet tips</div>
+                    <div class="suggestion-chip" onclick="sendSuggestion('Morning wellness routine')">Morning wellness routine</div>
+                </div>
+            </div>
+
+            <div class="messages" id="messages"></div>
+
+            <div class="typing-indicator" id="typingIndicator">
+                <div class="typing-dots">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+            <div class="input-area">
+                <div class="input-wrapper">
+                    <input 
+                        type="text" 
+                        id="messageInput" 
+                        placeholder="Ask me anything about your wellness journey..."
+                        autocomplete="off"
+                    />
+                    <button id="sendButton" onclick="sendMessage()">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22 2L11 13M22 2L15 22L11 13M22 2L2 9L11 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="srcipt.js"></script>
+</body>
+</html>

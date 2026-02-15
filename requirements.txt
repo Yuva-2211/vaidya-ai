@@ -1,0 +1,13 @@
+langchain
+langchain-community
+langchain-text-splitters
+langchain-pinecone
+pinecone-client
+sentence-transformers
+torch
+pypdf
+groq
+fastapi
+uvicorn
+python-dotenv
+
